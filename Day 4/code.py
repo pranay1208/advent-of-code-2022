@@ -20,6 +20,7 @@ for pair in input:
         continue
 
 print("Answer to part 1 is", overlaps)
+# Answer top part 1 is 530
 
 fullOverlaps = 0
 for pair in input:
@@ -33,3 +34,4 @@ for pair in input:
     fullOverlaps += 1
 
 print("Answer to part 2 is", fullOverlaps)
+# Answer to part 2 is 903
